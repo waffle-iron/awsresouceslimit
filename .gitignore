@@ -31,6 +31,7 @@ var/
 *.spec
 
 # Installer logs
+pip-selfcheck.json
 pip-log.txt
 pip-delete-this-directory.txt
 
@@ -79,8 +80,8 @@ celerybeat-schedule
 .env
 
 # virtualenv
-venv/
-ENV/
+bin/
+include/
 
 # Spyder project settings
 .spyderproject
